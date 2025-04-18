@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".", // Set the base URL
+    "paths": {
+      "@/*": ["src/*"] // Alias @ to the src directory
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
